@@ -15,3 +15,8 @@ Alternatively, run the test.py file with a test video file. If you wish to submi
 When finished, we'll run everything through the main file.
 
 For the faces folder, filenames should be the names of the people shown in the photo of the form "John_Doe.jpg" or ".png".
+
+If installing face_recognition fails, run:
+
+sudo apt update
+sudo apt install build-essential cmake libboost-all-dev python3-dev
